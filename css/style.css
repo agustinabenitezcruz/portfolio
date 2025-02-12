@@ -66,6 +66,9 @@ h1{
     font-size: 80px;
     font-family: 'Amarante', serif;
 }
+h1:hover{
+    text-decoration: none;
+}
 h2{
     font-family: 'Amarante',serif;
 }
