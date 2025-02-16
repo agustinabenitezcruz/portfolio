@@ -278,7 +278,12 @@ p{
     font-size: 1rem;
 }
 
-
+a{
+    color: #3A8A7C;
+}
+a:hover{
+    color: #f5f5f5;
+}
 
 /* Footer */
 footer {
