@@ -108,7 +108,15 @@ ul{
     transition: background 0.3s;
     margin-top: -5px;
 }
-
+.home{
+    position: fixed;
+    left: 30px;
+}
+.home img{
+    max-height: 60px;
+    padding-top: -10px;
+    margin-top: -10px;
+}
 #lang-toggle:hover {
     background-color: #ddd;
 }
@@ -164,6 +172,9 @@ section {
     text-align: left;
     
 }
+.cv-container{
+    align-content: center;
+}
 
 .cv-container:hover{
     transform: scale(1.05);
@@ -213,7 +224,6 @@ p{
 .col img{
     max-width: 500px;
     height: auto;
-    margin-bottom: 40px;
     width: -webkit-fill-available;
 }
 
@@ -229,7 +239,6 @@ p{
 
 .banner{
     background-color: #9fc2bc;
-    padding: 10px;
     margin: 20px 0px 20px 0px;
     display: flex;
     align-items: center;
@@ -239,7 +248,7 @@ p{
     gap: 20px;
     color: rgb(57, 57, 57);
     border-radius: 20px;
-    padding: 20px;
+    padding: 4%;
     
 }
 
@@ -333,6 +342,9 @@ footer {
     main{
         padding-top: 10px;
     
+    }
+    .home{
+        display: none;
     }
    
     h1{
